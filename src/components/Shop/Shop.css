@@ -17,3 +17,11 @@
     grid-template-columns: repeat(2, 1fr);
 }    
 }
+.pagination button{
+    background-color: white;
+    border: 1px solid orange;
+}
+.pagination .selected{
+    background-color: orange;
+    border: 1px solid black;
+}

@@ -1,0 +1,25 @@
+.form-div{
+    width: 500px;
+
+    border: 1px solid #95A0A7;
+}
+.login-btn{
+
+    background-color:rgba(255, 153, 0, 0.3);
+    color: black;
+    border: none;
+}
+.googleSignin{
+
+}
+.login-btn:hover{
+
+    background-color:rgba(255, 153, 0, 0.815);
+    color: black
+    ;
+}
+.input{
+    width: 415px;
+    height: 55px;
+    border: 1px solid #95A0A7;
+}
