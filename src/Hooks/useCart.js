@@ -10,7 +10,7 @@ const useCart = () => {
         const savedCart = [];
         const keys=Object.keys(storedCart);
         console.log(keys)
-        fetch("http://localhost:5000/productByKeys",{
+        fetch("https://ema-john-server-woad.vercel.app/productByKeys",{
             method:"POST",
             headers:{
               'content-type':'application/json'
